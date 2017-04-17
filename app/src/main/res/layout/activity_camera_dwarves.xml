@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.light.camera_dwarves.CameraDwarvesActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camera_preview"></FrameLayout>
+
+    <com.light.camera_dwarves.Overlay
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/overlay"/>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:id="@+id/capture_button"
+        android:src="@drawable/ic_camera_black_24dp"
+        android:tint="@color/colorAccent"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:id="@+id/album_button"
+        android:src="@drawable/ic_photo_album_black_24dp"
+        android:tint="@color/colorPrimary"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:id="@+id/switch_button"
+        android:src="@drawable/ic_switch_camera_black_24dp"
+        android:tint="@color/colorPrimary"
+        android:background="@android:color/transparent"
+        />
+
+</FrameLayout>
