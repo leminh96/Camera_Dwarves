@@ -16,3 +16,4 @@ The following **optional** features are implemented:
 - [ ] Record video
 
 ## Video Walkthrough
+[link video demo](https://youtu.be/2hCmqfpDAfE)
